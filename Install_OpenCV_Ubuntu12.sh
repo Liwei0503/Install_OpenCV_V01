@@ -3,8 +3,8 @@
 
 sudo apt-get update
 sudo apt-get upgrade
-Install OpenCV 3.0 and Python 2.7+ on UbuntuShell
-sudo apt-get install build-essential cmake git pkg-config
+Install OpenCV 3.0 and Python 2.7+ on UbuntuShell leptonica-progs videoporama
+sudo apt-get install build-essential cmake git pkg-config autoconf
 sudo apt-get install libjpeg8-dev libtiff4-dev libjasper-dev libpng12-dev
 sudo apt-get install libgtk2.0-dev
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
@@ -18,7 +18,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 source ~/.bashrc
 mkvirtualenv cv
-sudo apt-get install python2.7-dev
+sudo apt-get install python2.7-dev 
 pip install numpy
 cd ~
 git clone https://github.com/Itseez/opencv.git
