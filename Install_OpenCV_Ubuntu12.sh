@@ -9,6 +9,25 @@ sudo apt-get install libjpeg8-dev libtiff4-dev libjasper-dev libpng12-dev libtif
 sudo apt-get install libgtk2.0-dev
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
 sudo apt-get install libatlas-base-dev gfortran
+# ---------------------------------------------------------
+sudo apt-get install --assume-yes build-essential cmake git
+sudo apt-get install --assume-yes build-essential pkg-config unzip 
+sudo apt-get install --assume-yes ffmpeg python-numpy python3-numpy
+sudo apt-get install --assume-yes qtbase5-dev python-dev python3-dev 
+sudo apt-get install --assume-yes libopencv-dev libgtk-3-dev libdc1394-22 
+sudo apt-get install --assume-yes libdc1394-22-dev libjpeg-dev libpng12-dev 
+sudo apt-get install --assume-yes libtiff5-dev libjasper-dev libtheora-dev
+sudo apt-get install --assume-yes libavcodec-dev libavformat-dev libswscale-dev 
+sudo apt-get install --assume-yes libxine2-dev libgstreamer0.10-dev 
+sudo apt-get install --assume-yes libgstreamer-plugins-base0.10-dev
+sudo apt-get install --assume-yes libv4l-dev libtbb-dev libfaac-dev libmp3lame-dev
+sudo apt-get install --assume-yes libopencore-amrnb-dev libopencore-amrwb-dev
+sudo apt-get install --assume-yes libvorbis-dev libxvidcore-dev v4l-utils
+sudo apt-get install gcc-5 
+#(務必將 gcc 和 g++ 升級成 5 以上版本)
+sudo apt-get install g++-5
+#----------------------------------------------------------
+
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 sudo pip install virtualenv virtualenvwrapper
