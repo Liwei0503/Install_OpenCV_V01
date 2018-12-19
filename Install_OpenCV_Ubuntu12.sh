@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get upgrade
 # Install OpenCV 3.0 and Python 2.7+ on UbuntuShell leptonica-progs videoporama openclipart opencl-headers
 sudo apt-get install build-essential cmake git pkg-config autoconf
-sudo apt-get install libjpeg8-dev libtiff4-dev libjasper-dev libpng12-dev
+sudo apt-get install libjpeg8-dev libtiff4-dev libjasper-dev libpng12-dev libtiff5-dev
 sudo apt-get install libgtk2.0-dev
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
 sudo apt-get install libatlas-base-dev gfortran
